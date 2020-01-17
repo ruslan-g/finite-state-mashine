@@ -6,8 +6,9 @@ This is a minimalistic finite state machine written in PHP
 ## Installation
 * Get the latest version of Docker community version
 * Clone the project (copy the following script and paste it in your terminal):
-```git clone https://github.com/ruslan-g/finite-state-mashine finite-state-mashine \
-   && cd ./finite-state-mashine
+```
+git clone https://github.com/ruslan-g/finite-state-mashine finite-state-mashine \
+&& cd ./finite-state-mashine
 ```
 * Start the docker containers from the project folder
 ```bash
