@@ -1,27 +1,7 @@
-# finite-state-machine
+<?php
 
-Welcome to the project!
-This is a minimalistic finite state machine written in PHP
+require_once __DIR__ . '/vendor/autoload.php';
 
-## Installation
-* Get the latest version of Docker community version
-* Clone the project (copy the following script and paste it in your terminal):
-```git clone https://github.com/ruslan-g/finite-state-mashine finite-state-mashine \
-   && cd ./finite-state-mashine
-```
-* Start the docker containers from the project folder
-```bash
-docker-compose up
-```
-* Install dependencies
-```
-docker exec fsm composer install
-```
-* Run composer install
-
-## How to create state machine
-
-```php
 use FSM\State\StateInterface;
 use FSM\Transition\Transition;
 use FSM\State\State;
@@ -49,14 +29,7 @@ try {
 } catch (InvalidInputException $exception) {
 	echo $exception->getMessage() . "\n";
 }
-```
 
-## How to run an examples
-```
-docker exec fsm php example.php
-docker exec fsm php example.php
-```
-## How to run unit test
-```
-docker exec fsm vendor/bin/phpunit tests/FSM/Test/StateMachineTest.php
-```
+
+
+
