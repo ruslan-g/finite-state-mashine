@@ -7,7 +7,6 @@ use FSM\Exception\NoInitialStateDefined;
 use FSM\Exception\NoTransitionFound;
 use FSM\Transition\Transition;
 use FSM\State\State;
-use http\Exception\RuntimeException;
 
 class StateMachine {
 
