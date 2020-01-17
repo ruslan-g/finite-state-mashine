@@ -18,7 +18,6 @@ docker-compose up
 ```
 docker exec fsm composer install
 ```
-* Run composer install
 
 ## How to create state machine
 
