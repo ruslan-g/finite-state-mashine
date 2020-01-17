@@ -1,4 +1,4 @@
-# finite-state-machine
+# Finite State Machine
 
 Welcome to the project!
 This is a minimalistic finite state machine written in PHP
