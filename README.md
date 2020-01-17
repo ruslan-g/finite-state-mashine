@@ -54,7 +54,7 @@ try {
 ## How to run an examples
 ```
 docker exec fsm php example.php
-docker exec fsm php example.php
+docker exec fsm php example2.php
 ```
 ## How to run unit test
 ```
